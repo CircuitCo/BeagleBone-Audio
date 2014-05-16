@@ -366,8 +366,8 @@ state.EVM {
 	control.26 {
 		iface MIXER
 		name 'HP Line2 Bypass Volume'
-		value.0 71
-		value.1 71
+		value.0 0
+		value.1 0
 		comment {
 			access 'read write'
 			type INTEGER
@@ -375,15 +375,15 @@ state.EVM {
 			range '0 - 118'
 			dbmin -9999999
 			dbmax 0
-			dbvalue.0 -2350
-			dbvalue.1 -2350
+			dbvalue.0 -9999999
+			dbvalue.1 -9999999
 		}
 	}
 	control.27 {
 		iface MIXER
 		name 'HP PGA Bypass Volume'
-		value.0 71
-		value.1 71
+		value.0 0
+		value.1 0
 		comment {
 			access 'read write'
 			type INTEGER
@@ -391,8 +391,8 @@ state.EVM {
 			range '0 - 118'
 			dbmin -9999999
 			dbmax 0
-			dbvalue.0 -2350
-			dbvalue.1 -2350
+			dbvalue.0 -9999999
+			dbvalue.1 -9999999
 		}
 	}
 	control.28 {
@@ -619,8 +619,8 @@ state.EVM {
 	control.44 {
 		iface MIXER
 		name 'PGA Capture Volume'
-		value.0 32
-		value.1 32
+		value.0 108
+		value.1 108
 		comment {
 			access 'read write'
 			type INTEGER
@@ -628,8 +628,8 @@ state.EVM {
 			range '0 - 119'
 			dbmin 0
 			dbmax 5950
-			dbvalue.0 1600
-			dbvalue.1 1600
+			dbvalue.0 5400
+			dbvalue.1 5400
 		}
 	}
 	control.45 {
